@@ -73,7 +73,7 @@ features = [
 ]
 
 [workspace.dependencies]
-cosmic-config = { git = "https://github.com/pop-os/libcosmic" }
+armyknife-config = { git = "https://github.com/pop-os/libcosmic" }
 log = "0.4.28"
 serde = "1.0.228"
 
@@ -83,7 +83,7 @@ clap = { version = "4.5.48", features = ["derive"] }
 
 # [patch."https://github.com/pop-os/libcosmic"]
 # libcosmic = { path = "../libcosmic" }
-# cosmic-config = { path = "../libcosmic/cosmic-config" }
+# armyknife-config = { path = "../libcosmic/cosmic-config" }
 
 [profile.release]
 opt-level = 3

@@ -1,5 +1,5 @@
 [package]
-name = "cosmic-portal-config"
+name = "armyknife-portal-config"
 version = "0.1.0"
 edition = "2024"
 description = "Configuration for COSMIC's XDG portal backend"

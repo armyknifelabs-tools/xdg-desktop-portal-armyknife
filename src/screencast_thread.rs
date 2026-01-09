@@ -494,7 +494,7 @@ fn start_stream(
     let context = pipewire::context::ContextRc::new(&loop_, None)?;
     let core = context.connect_rc(None)?;
 
-    let name = "cosmic-screenshot".to_string(); // XXX randomize?
+    let name = "armyknife-screenshot".to_string(); // XXX randomize?
 
     let (node_id_tx, node_id_rx) = oneshot::channel();
 
@@ -513,7 +513,7 @@ fn start_stream(
         &name,
         pipewire::properties::properties! {
             "media.class" => "Video/Source",
-            "node.name" => "cosmic-screenshot", // XXX
+            "node.name" => "armyknife-screenshot", // XXX
         },
     )?;
 
